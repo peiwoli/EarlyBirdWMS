@@ -1,0 +1,15 @@
+id,name,action,link,url,icon,level,render,parent,roles,descripiton
+warehouseOperation,Warehouse Operation,,,,,0,TRUE,,,main menu picking
+inventory,Inventory,,,,,0,TRUE,,,main menu inventory
+warehousemaintenance,Warehouse Maintenance,,,,,0,TRUE,,,main menu warehousemaintenance
+systemmanagement,System Management,,,,,0,TRUE,,,main menu systemmanagment
+picking,PICKING,,,,,1,TRUE,warehouseOperation,,Orders Panel Group
+orders,Orders,,com.earlybird.wms.base.ui.picking.OrderListView,,,2,TRUE,picking,,Orders sub menu item
+orderLines,Order Lines,,com.earlybird.wms.base.ui.picking.OrderListView,,,2,TRUE,picking,,Orders sub menu item
+pickTasks,Pick Tasks,,com.earlybird.wms.base.ui.picking.OrderListView,,,2,TRUE,picking,,Orders sub menu item
+receiving,RECEIVING,,,,,1,TRUE,warehouseOperation,,main menu receiving
+asn,Asn,,com.earlybird.wms.base.ui.picking.OrderListView,,,2,TRUE,receiving,,
+asnLine,Asn Line,,com.earlybird.wms.base.ui.picking.OrderListView,,,2,TRUE,receiving,,
+receivingTask,Receiving Task,,com.earlybird.wms.base.ui.picking.OrderListView,,,2,TRUE,receiving,,
+putaway,PUTAWAY,,,,,1,TRUE,warehouseOperation,,
+putawayTasks,Putaway Tasks,,com.earlybird.wms.base.ui.picking.OrderListView,,,2,TRUE,putaway,,
