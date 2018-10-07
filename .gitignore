@@ -30,3 +30,4 @@ earlybird-web/target/classes/META-INF/maven/com.earlybird/earlybird-web/pom.prop
 
 **/*.project
 **/*.settings
+**/*pom.properties
