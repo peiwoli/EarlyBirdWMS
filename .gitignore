@@ -4,6 +4,7 @@
 # Log file
 *.log
 
+
 # BlueJ files
 *.ctxt
 
@@ -21,3 +22,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+*earlybird-core/target/**
+*earlybird-web/target/**
+earlybird-core/target/classes/META-INF/maven/com.earlybird/earlybird-core/pom.properties
+earlybird-web/target/classes/META-INF/maven/com.earlybird/earlybird-web/pom.properties
