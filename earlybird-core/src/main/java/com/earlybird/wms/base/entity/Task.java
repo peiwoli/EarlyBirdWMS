@@ -3,7 +3,6 @@
  */
 package com.earlybird.wms.base.entity;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -14,8 +13,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.Min;
-
-import org.hibernate.annotations.CreationTimestamp;
 
 import com.earlybird.wms.base.api.util.DateTimeUtil;
 import com.earlybird.wms.base.entity.constants.TaskStatus;

@@ -1,6 +1,5 @@
 package com.earlybird.wms.base.entity;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 

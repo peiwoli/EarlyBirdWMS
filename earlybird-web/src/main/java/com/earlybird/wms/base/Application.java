@@ -27,10 +27,10 @@ public class Application {
 
 
 
-
-    @GetMapping("/")
-    public String home() {
-        return myService.message();
-    }
+//
+//    @GetMapping("/")
+//    public String home() {
+//        return "";
+//    }
   
 }

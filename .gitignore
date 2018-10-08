@@ -25,10 +25,14 @@ hs_err_pid*
 
 *earlybird-core/target/**
 *earlybird-web/target/**
+*earlybird-fe/target/**
 earlybird-core/target/classes/META-INF/maven/com.earlybird/earlybird-core/pom.properties
 earlybird-web/target/classes/META-INF/maven/com.earlybird/earlybird-web/pom.properties
-
+**/*pom.properties
 **/*.project
 **/*.settings
 **/*pom.properties
 **/*.classpath
+**/*.factorypath
+**/*.db
+**/*.editorconfig
