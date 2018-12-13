@@ -17,6 +17,8 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 /**
  * @author Peili Zhou
  *
@@ -61,6 +63,7 @@ public class MenuItem extends BaseEntity {
 	private String description ;
 	
 	@ManyToOne
+	@JsonIgnore
 	MenuItem parent;
 	
 	@OneToMany(mappedBy="parent")

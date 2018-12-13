@@ -20,6 +20,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
 import com.earlybird.wms.base.entity.constants.RoleStatus;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * @author Peili Zhou
@@ -38,6 +39,7 @@ public class Role extends BaseEntity {
 	
 	
 	@ManyToMany(mappedBy = "roles")
+	@JsonIgnore
     protected Set<User> users = new HashSet<>();
 	
 	
@@ -51,6 +53,7 @@ public class Role extends BaseEntity {
         joinColumns = { @JoinColumn(name = "menu_item_key") }, 
         inverseJoinColumns = { @JoinColumn(name = "role_key") }
     )
+	@JsonIgnore
 	protected Set<MenuItem> menuItems = new HashSet<>();
 	
 	

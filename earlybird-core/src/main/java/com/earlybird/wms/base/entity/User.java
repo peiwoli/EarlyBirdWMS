@@ -9,6 +9,7 @@ import java.util.Set;
 import javax.persistence.*;
 
 import com.earlybird.wms.base.entity.constants.UserStatus;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * @author Peili Zhou
