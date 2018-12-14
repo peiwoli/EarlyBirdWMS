@@ -1,0 +1,16 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class MenuService {
+
+  constructor(private http: HttpClient) { }
+
+  testPrint() {
+    this.http.get('/menuList', { responseType: 'text' }).subscribe(res => {
+      console.log(res);
+    });
+  }
+}
