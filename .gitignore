@@ -40,4 +40,7 @@ earlybird-fe/src/main/web/dist/**
 **/*.db
 **/*.editorconfig
 earlybird-web/early-bird-db.mv.db
-*.db
+**/*.db
+**/.gradle/**
+**/.vs/**
+**/.vscode/**

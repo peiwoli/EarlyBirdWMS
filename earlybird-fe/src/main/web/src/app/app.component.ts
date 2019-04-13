@@ -10,9 +10,12 @@ import { MenuService } from './service/menu.service';
 export class AppComponent {
   title = 'web-test';
   heros = ['hero1', 'hero2'];
-  
+
+
 
   constructor(menuService: MenuService) {
     menuService.testPrint();
+    menuService.testPrint();
   }
+
 }
