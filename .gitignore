@@ -23,6 +23,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+
 *earlybird-core/target/**
 *earlybird-web/target/**
 *earlybird-fe/target/**
@@ -44,3 +45,4 @@ earlybird-web/early-bird-db.mv.db
 **/.gradle/**
 **/.vs/**
 **/.vscode/**
+
